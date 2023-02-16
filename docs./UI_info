@@ -1,0 +1,31 @@
+UI_1 (Homepage)
+Lists past text entries and has 3 buttons at the bottom: notes, add new, and summary.
+There is also a hamburger icon in the top right for the options menu.
+
+UI_2 (Adding an entry: moods)
+If the user presses the add new button, this page comes up. It features 5 mood buttons,
+and is necessary in order for the user to add an entry. At the bottom of the page 
+is a next button, and at the top left is a back button, which will send them back to the homepage.
+
+UI_3 (Adding an entry: activities)
+If the user presses next, they will be taken to the activities page. This page features 
+buttons containing activities (or a new activity can be added). At the bottom of the page 
+is a next button, and at the top left is a back button. This page also features a skip button 
+(redundant, will be removed) if the user chooses not to add an activity.
+
+UI_4 (Adding an entry: notes)
+If the user presses next, they will be taken to the notes page. 
+They can choose to write notes here and the app will store the string.
+Then, they can press the done button or the back button in the left corner. 
+They will be sent back to the homepage.
+
+UI_5 (Calendar)
+This page can be accessed by pressing the calendar button in the homepage.
+It will have a calendar with their mood for each day, and a dropdown menu for choosing a date
+(not drawn). Under this will be an editable text box where the user can enter the date of their
+next therapy appointment, and another section where they can complete their therapy homework 
+(this feature may not be developed) 
+
+UI_6 (Options)
+This page will have an account button, an edit activities button, and a button for sharing mood data with 
+the user's therapist. This may not make it to the final project.
