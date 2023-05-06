@@ -1,6 +1,17 @@
 <script>
+  import { onMount } from "svelte";
   
-</script>
+  onMount(async () => {
+    fetch("http://localhost:5186/api/DailyMoodPostModels")
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+    }).catch(error => {
+      console.log(error);
+      return [];
+    });
+  });
+  </script>
 
 <html lang="en">
   <head>
@@ -22,103 +33,26 @@
     <div class="wrapper">
       <div class="content" role="main">
         <!-- TITLE OF HOMEPAGE -->
-        <h1 class="title">February 2023</h1>
+        <h1 class="title">Daily Entries</h1>
        
         <div class="instructions">
+
+          <div id="posts_container" class="entry">
         <!-- Existing entry -->
-          <h2>February 13</h2>
+      </div>
+        <div id="myDiv" class="date">
+          <h2> <!-- Date --> </h2>
+        </div>
+          
         <!-- Add text box here, will contain the entry -->
             
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-              ut aliquip ex ea commodo consequat. 
+              <!-- Entry is here -->
+
               <!-- Text break -->
               <br>
               <button>
                   Edit
                   </button>
-          
-          <h2>February 12</h2>
-        <!-- Add text box here, will contain the entry -->
-            
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-              ut aliquip ex ea commodo consequat. 
-              <!-- Text break -->
-              <br>
-              <button>
-                  Edit
-                  </button>
-          
-          <h2>February 11</h2>
-        <!-- Add text box here, will contain the entry -->
-            
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-              ut aliquip ex ea commodo consequat. 
-              <!-- Text break -->
-              <br>
-              <button>
-                  Edit
-                  </button>
-          
-          <h2>February 10</h2>
-        <!-- Add text box here, will contain the entry -->
-            
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-              ut aliquip ex ea commodo consequat. 
-              <!-- Text break -->
-              <br>
-              <button>
-                  Edit
-                  </button>
-          
-          <h2>February 9</h2>
-        <!-- Add text box here, will contain the entry -->
-            
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-              ut aliquip ex ea commodo consequat. 
-              <!-- Text break -->
-              <br>
-              <button>
-                  Edit
-                  </button>
-         
-          <h2>February 8</h2>
-        <!-- Add text box here, will contain the entry -->
-            
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-              ut aliquip ex ea commodo consequat. 
-              <!-- Text break -->
-              <br>
-              <button>
-                  Edit
-                  </button>
-          
-          <h2>February 7</h2>
-        <!-- Add text box here, will contain the entry -->
-            
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-              ut aliquip ex ea commodo consequat. 
-              <!-- Text break -->
-              <br>
-         <!-- Edit entry button -->
-                <button>
-                  Edit
-                  </button>
-          
- 
         </div>
       </div>
     </div> 
@@ -135,3 +69,4 @@
   
   
 </html>
+

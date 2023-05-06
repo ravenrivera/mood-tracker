@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{82BEF68C-492C-4CA8-A878-0C0805C0E0AF}|Default">
+  <MonoDevelop.Ide.ItemProperties.MoodTrackerBackend PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MoodTrackerBackend/Program.cs">
+    <Files>
+      <File FileName="MoodTrackerBackend/Program.cs" Line="12" Column="32" />
+      <File FileName="MoodTrackerBackend/Controllers/DailyMoodPostModelsController.cs" Line="212" Column="141" />
+      <File FileName="MoodTrackerBackend/appsettings.json" Line="1" Column="1" />
+      <File FileName="MoodTrackerBackend/Models/ActivitiesDto.cs" Line="1" Column="1" />
+      <File FileName="MoodTrackerBackend/Models/ActivitiesModel.cs" Line="1" Column="1" />
+      <File FileName="MoodTrackerBackend/Models/DailyMoodEntriesDto.cs" Line="1" Column="1" />
+      <File FileName="MoodTrackerBackend/Models/DailyMoodPostContext.cs" Line="1" Column="1" />
+      <File FileName="MoodTrackerBackend/Properties/launchSettings.json" Line="16" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MoodTrackerBackend" expanded="True">
+            <Node name="MoodTrackerBackend" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ah76XIiyqtf6Ia4wnawycd4UY6qviJ5FJYj8RH5mejk=",
+  "Source": "MoodTrackerBackend",
+  "BasePath": "_content/MoodTrackerBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
