@@ -18,5 +18,3 @@
     <!-- svelte will place this in slot -->
     <slot></slot>
 </main>
-
-<!--Put navbar here if there's a problem-->

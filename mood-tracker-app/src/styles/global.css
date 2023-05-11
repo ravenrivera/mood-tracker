@@ -1,18 +1,14 @@
 
-/* Our default values set as CSS variables */
 :root {
     --color-bg: #D6EAF8;
     --color-text-main: #000000;
     --color-primary: #FFFF00;
-  /* Wrapper determines how far down our title is. */
     --wrapper-height: 2vh;
     --image-max-width: 300px;
     --image-margin: 3rem;
     --font-family: "HK Grotesk";
     --font-family-header: "HK Grotesk";
   }
-  
-  /* Basic page style resets */
 
   * {
     box-sizing: border-box;
@@ -20,9 +16,7 @@
   [hidden] {
     display: none !important;
   }
-
   
-  /* Import fonts */
   @font-face {
     font-family: HK Grotesk;
     src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
@@ -38,12 +32,6 @@
   .divider {
     padding: 0 1rem;
   }
-
-
-
-  /******************************************************************************
- End of defaults
-  ******************************************************************************/
   
   body {
     margin: 0;
@@ -67,7 +55,6 @@
     justify-content: left;
   }
   
-  /* TITLE */
   .title {
     color: #424242;
     font-family: HK Grotesk;
@@ -78,14 +65,9 @@
     margin: 0;
   }
   
-  
-  /* Instructions */
-  
-   .instructions {
+   .body-margin {
     margin: 1rem auto 0;
   } 
-  
-  /* Button */
 
   button,
   input {
@@ -99,38 +81,15 @@
     transition: 500ms;
   }
   
-  
-  /* Subheading */
-  
   h2 {
     color: #424242;
     
   }
-  
-  
-  /* Button dip
-  - Toggling this class on and off will move it down and up again
-  - The button transition property above determines the speed of the translate (500ms)
-  */
+
   .dipped {
     transform: translateY(5px);
   }
-  
-  /* Links that open files in the editor */
-  .fileopener {
-    cursor:pointer;
-    font-weight:bold;
-    border-bottom:3px solid var(--color-primary);
-    color: var(--color-secondary);
-  }
-  .fileopener:hover {
-    border-bottom:3px solid var(--color-secondary);
-  }
-  
-  
-  /* Top menu */
-  
-  /* The navigation bar */
+
   .navbar {
     overflow: hidden;
     background-color: #AED6F1;
@@ -139,10 +98,7 @@
     width: 100%; /* Full width */
   }
 
-  
-  /* Links inside the navbar */
   .navbar a {
-    /* Text goes from right to left */
     float: right;
     display: block;
     color: #f2f2f2;
@@ -151,7 +107,6 @@
     text-decoration: none;
   }
   
-  /* Change background on mouse-over */
   .navbar a:hover {
     background: #ddd;
     color: black;

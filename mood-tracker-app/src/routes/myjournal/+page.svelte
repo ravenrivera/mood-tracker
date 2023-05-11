@@ -66,7 +66,7 @@ $: console.table(entries);
         <!-- TITLE OF HOMEPAGE -->
         <h1 class="title">My Journal</h1>
        </div>
-       <div class="instructions">
+       <div class="body-margin">
     <br>
     This is where you can write more detailed entries for later.
 

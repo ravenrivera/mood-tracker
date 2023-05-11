@@ -63,7 +63,7 @@ function handleDeleteClicked(entryId) {
         <!-- TITLE OF HOMEPAGE -->
         <h1 class="title">Mood Tracker</h1>
        
-        <div class="instructions">
+        <div class="body-margin">
               <br>
               <button on:click={() => PopupForm.show = true}>New Entry</button>
 <PopupForm on:formSubmitted={handleFormSubmitted} show={PopupForm.show}/>
